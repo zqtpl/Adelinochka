@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kosmetista</title>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<style>
+		
+			body{
+			background-color:#D8BFD8;
+			background-size: 100%; 
+			margin: 10px 0 0 0;}
+			
+			table{
+			margin-left: auto;
+			margin-right: auto;}
+			
+			caption{
+			border-bottom: 1px white dotted;
+			font-size:30px;
+			color:white;
+			text-align:left;}
+			
+			font{
+			color:white;}
+			
+			p{
+			color:white;}
+			
+			.two{
+			width:405px;
+			background:#D8BFD8;}
+			
+			table td{
+			text-align:left;
+			padding-top:20px;}
+						
+			table td.inf{
+			color:black;
+			text-align:right;
+			width:150px;
+			vertical-align:top;
+			padding-right:7px;}
+			
+			.send{
+			background: linear-gradient(to bottom, #D8BFD8, #DA70D6);
+			width:150px;
+			height:40px;}
+			
+			input{
+			border-radius:5px;
+			color:white;}
+			
+			textarea{
+			border-radius:5px;
+			color:white;
+			resize: none;}
+	
+		</style>
+		
+	</head>
+		
+	<body>
+
+		<table>
+		
+		<caption>User registration</caption>
+		
+		<tr>	<td class="inf">Your last name?</td>							                  <td>  <input class="two" name="login" type="text" size="25" maxlength="30" value=""/></td>			</tr>
+		<tr>	<td class="inf">Your name?</td>							                      <td>  <input class="two" name="login" type="text" size="25" maxlength="30" value=""/></td>			</tr>
+		<tr>	<td class="inf">What nickname do you want to have <br/> in our forum?<br/></td>	  <td>  <input class="two" name="login" type="text" size="25" maxlength="30" value=""/></td>			</tr>
+		<tr>	<td class="inf">Your e-mail address</td>							  <td>  <input class="two" name="login" type="text" size="25" maxlength="30" value=""/></td>	</tr>
+		<tr>	<td class="inf">Age</td>												  <td>  
+																							  <font><input type="radio" name="R" value="V1">Under 18</font>
+																							  <font><input type="radio" name="R" value="V2">18-25</font>
+																							  <font><input type="radio" name="R" value="V3">25-35</font>							
+																							  <font><input type="radio" name="R" value="V4">35-45</font>
+																							  <font><input type="radio" name="R" value="V4">45+</font></td> 
+																							  </tr>
+		<tr>	<td class="inf">How did you hear about us?</td>				<td>  <select name="studies"  aria-required="true" size = "1">
+																											<option value="" selected disabled>Choose an option</option>
+																											<option value="1">internet</option>
+																											<option value="2">newspapers</option>
+               																								<option value="3">friends</option>
+               																								<option value="4">work</option>
+               																								<option value="5">ad</option></select></td>								</tr>
+		<tr>	<td class="inf">Additional comments</td>				<td>  <textarea class="two" name="comment" id="comment" cols="48" rows="8"></textarea></td>							</tr>
+		<tr>	<td class="inf"></td>										<td>  <input class="send" type = "submit" name = "1" value = "registration"></td>									</tr>
+		
+		</table>
+
+	<center><a href="index.html" class="book">Back</a></center>
+	</body>
+
+</html>

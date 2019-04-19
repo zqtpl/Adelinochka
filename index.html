@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>Kosmetista</title>
+	<style>
+body{
+			background-image: url(photo/fon.jpg);
+			background-size: 100%; 
+			margin: 0% 0% 0% 0%;
+			}
+		.header{
+			background: linear-gradient( #FFC0CB, white);
+			width: 100%;
+			height: 12%;
+			margin-top: 0%;
+			margin-right: 0%;
+			margin-left: 0%;
+			margin-bottom: 0%;
+			}	
+		.niz{
+			background: linear-gradient( #FFC0CB, white);
+			width: 100%;
+			height: 12%;
+			margin-top: 0%;
+			margin-right: 0%;
+			margin-left: 0%;
+			margin-bottom: 0%;
+			}
+		.name{
+			padding: 0% 5% 5% 5%;
+			padding-left: 2%;
+			padding-top: 0.5%;
+			color: #8B0000;
+			font-family: 'arial';
+			}
+		.book{
+			padding-left: 44px;
+			color: #800000;
+			font-size: 18px;
+			}
+		.photoone{
+			margin-top: -4.2%;
+			margin-right: 0%;
+			margin-left: 85%;
+			}
+		.phototwo{
+			margin-top: -1%;
+			margin-right: 0%;
+			margin-left: 85%;
+			}
+		.photothree{
+			margin-left: 1%;
+			margin-top: -3%;
+			}
+		h2{
+		   color: #A52A2A;
+		   margin-left: 3%;
+			}
+		.article > img{
+			border-radius:10%;}
+		
+		p{
+			margin-right: 4%;
+			margin-left: 4%;
+			}
+		h1{
+			font-size: 29px;
+			}
+		h2{
+			font-size: 20px;
+			}
+		.pod{
+			margin-top: -6%;
+			margin-left: 4%;
+			}
+		.podd{
+			margin-top: -0.7%;
+			margin-left: 4%;
+			}
+		ul {
+			display: block;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			}
+		ul:after {
+			display: block;
+			content: ' ';
+			clear: both;
+			float: none;
+			}
+		ul.menu > li {
+			float: left;
+			position: relative;
+			}
+		ul.menu > li > a {
+			display: block;
+			padding: 10px;
+			color: white;
+			background-color: salmon;
+			text-decoration: none;
+			}
+		ul.menu > li > a:hover {
+			background-color: black;
+			}
+		ul.submenu {
+			display: none;
+			position: absolute;
+			width: 120px;
+			top: 37px;
+			left: 0;
+			background-color: white;
+			border: 1px solid silver;
+			}
+		ul.submenu > li {
+			display: block;
+			}
+		ul.submenu > li > a {
+			display: block;
+			padding: 10px;
+			color: white;
+			background-color: salmon;
+			text-decoration: none;
+			}
+		ul.submenu > li > a:hover {
+			text-decoration: underline;
+			}
+		ul.menu > li:hover > ul.submenu {
+			display: block;
+			}
+		div.menuu{
+			margin-left: 55%;
+			margin-top: -9%;
+			}
+		
+		
+			
+		.tab{
+			color:#46713A;
+			text-decoration:underline;
+			font-style:oblique;
+			text-align:left;
+			font-size:35px;
+			padding-bottom:30px;}
+						
+		caption{
+			text-align:right;
+			padding-bottom:7px;}
+			
+		table{
+			border-collapse:collapse;
+			margin:auto;}
+			
+		table th{
+			text-align:left;
+			background:#FF1493;
+			color:white;
+			padding:4px 0 4px 10px;
+			border: 1px #C1B270 solid;}
+			
+		table td{
+			border: 1px #C1B270 solid;}
+			
+		table tr.first{
+			background: pink;}
+			
+		table tr.second{
+			background: #FF69B4;}
+			
+		table td.tovar{
+			width:400px;
+			padding-left:10px;}
+
+		table td.star{
+			color:#F34900;
+			font-size:20px;
+			width:100px;
+			padding-left:10px;}
+</style>
+</head>
+<body>
+<div class="header">
+	<div class="name"> <h1>Kosmetista - your guide to the world of beauty!</h1> </div>
+	<div class="menuu">
+	<ul class="menu">
+    <li><a href="#" class="book">Cosmetics</a>
+        <ul class="submenu">
+            <li><a href="face.html">For face</a></li>
+            <li><a href="eyes.html">For eyes</a></li>
+            <li><a href="lips.html">For lips</a></li>
+        </ul>
+    </li> 
+	<li><a href="makeup.html" class="book">Makeup</a></li>
+	<li><a href="news.html" class="book">News</a></li>
+	<li><a href="forym.html" class="book">Forum</a>
+		<ul class="submenu">
+            <li><a href="anketa.html" class="book">Profile</a></li>
+        </ul>
+	</li>
+	</ul>
+	</div>
+	<img class="photoone" src="photo/lips1.png" width="9%" height="100%">
+</div>
+
+<div class="main">
+	<div class="text">
+	<h2>Bourjois Healthy Mix Foundation 51 Vanille Clair</h2>
+	<h2>Why am I returning to him again for 10 years?</h2>
+	<p>About this cream I learned back in 2009 on the YouTube channel of one popular blogger.</p>
+	<div class="all">
+		<input checked type="radio" name="respond" id="desktop" />
+			<article id="slider">
+					<input checked type="radio" name="slider" id="switch1" />
+					<input type="radio" name="slider" id="switch2" />
+					<input type="radio" name="slider" id="switch3" />
+					<input type="radio" name="slider" id="switch4" />
+					<input type="radio" name="slider" id="switch5" />
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="photo/tones/tonb.jpg"  height="600 width="250"/></article>
+							<article><img src="photo/tones/tonb1.jpg"  height="600" width="250"/></article>
+							<article><img src="photo/tones/tonb2.jpg"  height="600" width="250"/></article>
+							<article><img src="photo/tones/ton3b.jpg"  height="600" width="250"/></article>
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+				</div>
+				<div id="active">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+				</div>
+			</article>
+	</div>
+	<p>It is always difficult for me to choose a cosmetic, I am allergic and many useful and good components do not want to be friends with my skin.
+I persistently read reviews and try not to spend money on another tool that I most likely will not be able to use.
+And with this cream everything turned out well, there were no rashes, there was no itching of the skin, I used it sometimes daily and nothing has changed, there is an even skin tone - there is no allergy!</p>
+	<p>I am sincerely glad that so far this tonal can be found on store shelves.</p>
+	
+	<table>
+		<caption class="tab">Results of product use</caption>
+		<tr>				<th>Specifications</th>							<th>RATING</th>		                                    </tr>
+		<tr class="first">	<td class="tovar">Price</td>					    <td class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</td>	</tr>
+		<tr class="second">	<td class="tovar">Moisturizing</td>			    <td class="star">&#9733;&#9733;&#9733;</td>			        </tr>
+		<tr class="first">	<td class="tovar">Persistence</td>			    <td class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</td>	</tr>
+		<tr class="second">	<td class="tovar">Density</td>			    <td class="star">&#9733;&#9733;</td>				        </tr>
+		<tr class="first">	<td class="tovar">Shade selection</td>		    <td class="star">&#9733;&#9733;&#9733;</td>			        </tr>
+
+	</table>
+	
+	<h2>A new cream from Darphin Ideal Resource Youth Retinol Oil Concentrate - retinol anti-aging concentrate</h2>
+	<p><b>Hello!</b></p>
+	<p>Today we will talk about the recent <i>brand Darphin</i>, about the restorative concentrate with retinol for the face in capsules for evening use.
+This product was released as part of the anti-aging line of the brand - Ideal Resource, and is intended to moisturize, nourish the skin, improve its tone, make it shine, and also reduce facial and age wrinkles.</p>
+	<p>The tool is an oil concentrate with retinol, the percentage of which is 0.3%. It may seem to many that it is not enough, but it is not. It is known that the encapsulated retinol is stable and works in such a percentage much more efficiently than, for example, a product with almost 2% of a free substance in its usual form.
+In addition to retinol capsules contain various oils. The main ones are: jojoba oil, macadamia, sesame, argan, which moisturize well, nourish the skin, give it a healthy appearance, and also help soften the harsh effects of retinol.</p>
+	<p>For the first time I used a remedy with the content of retinol capsules, and I should note that it is very convenient. First and foremost, it is the complete preservation of the substance until it is applied to your skin. Secondly, it is not necessary to think too much about the amount of money applied to the face; the manufacturer has already done this for you. Thirdly, you have a full course, and personally it disciplines me a lot.
+And also, I really liked the fact that oil concentrate, because for women with age or dry skin, this is a great opportunity, without fear of consequences, to use the product with retinol.</p>
+	</div>
+</div>
+
+<div class="niz">
+	<img class="phototwo" src="photo/lips2.png" width="10%" height="135%">
+	<p class="pod">My e-mail businessCHIKA@gmail.com</p>
+	<p class="podd">My instagram @mimimisexychika</p>
+	<img class="photothree" src="photo/insta.png" width="2.5%" height="35%">
+</div>
+
+ </body>
+</html>
